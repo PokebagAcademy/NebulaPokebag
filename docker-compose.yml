@@ -5,12 +5,12 @@ services:
     working_dir: /app
     
     volumes:
-      - TO CHANGE
+      - .:/app
     
     ports:
       - "8090:3000"
     
-    # La commande qui installe et lance 'server' automatiquement
-    command: npx --yes server -p 3000
+    # La commande qui installe et lance 'serve' automatiquement
+    command: npx --yes serve -p 3000
     
     restart: unless-stopped

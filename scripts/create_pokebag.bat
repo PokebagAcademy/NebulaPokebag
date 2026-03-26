@@ -15,10 +15,14 @@ call npm run build
 echo Initializing root...
 call npm run start -- init root
 
-echo Generating server...
-call npm run start -- g server PokeBag 1.21.1 --fabric 0.18.4
-
 set "SERVER_DIR=%ROOT%\servers\PokeBag-1.21.1"
+if exist "%SERVER_DIR%" (
+  echo Server exists at %SERVER_DIR% - skipping generation.
+) else (
+  echo Generating server...
+  call npm run start -- g server PokeBag 1.21.1 --fabric 0.18.4
+)
+
 set "SRC_DIR=%ROOT%\servers\fabricmods"
 set "DEST_DIR=%SERVER_DIR%\fabricmods\required"
 
