@@ -17,10 +17,14 @@ npm run build
 echo "Initializing root..."
 npm run start -- init root
 
-echo "Generating server PokeBag 1.21.1 with Fabric 0.18.4..."
-npm run start -- g server PokeBag 1.21.1 --fabric 0.18.4
+SERVER_DIR="${ROOT}/servers/PokeBag-1.21.1"
+if [ -d "$SERVER_DIR" ]; then
+  echo "Server directory exists at $SERVER_DIR - skipping generation."
+else
+  echo "Generating server PokeBag 1.21.1 with Fabric 0.18.4..."
+  npm run start -- g server PokeBag 1.21.1 --fabric 0.18.4
+fi
 
-SERVER_DIR="$(realpath "${ROOT}/servers/PokeBag-1.21.1")"
 SRC_DIR="$(realpath "${ROOT}/servers/fabricmods")"
 DEST_DIR="${SERVER_DIR}/fabricmods/required"
 
