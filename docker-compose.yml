@@ -1,0 +1,16 @@
+services:
+  nebula-files:
+    image: node:20-alpine
+    container_name: nebula-files
+    working_dir: /app
+    
+    volumes:
+      - TO CHANGE
+    
+    ports:
+      - "8090:3000"
+    
+    # La commande qui installe et lance 'server' automatiquement
+    command: npx --yes server -p 3000
+    
+    restart: unless-stopped
