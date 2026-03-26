@@ -25,7 +25,7 @@ else
   npm run start -- g server PokeBag 1.21.1 --fabric 0.18.4
 fi
 
-SRC_DIR="$(realpath "${ROOT}/servers/fabricmods")"
+SRC_DIR="${ROOT}/servers/fabricmods"
 DEST_DIR="${SERVER_DIR}/fabricmods/required"
 
 mkdir -p "$DEST_DIR"
@@ -44,5 +44,9 @@ fi
 
 echo "Writing servermeta.json..."
 node -e "const fs=require('fs');const path=require('path');const root=process.env.ROOT||'.';const dir=path.join(root,'servers','PokeBag-1.21.1');if(!fs.existsSync(dir)){console.error('Server dir missing',dir);process.exit(1);}const meta={};meta['$schema']='file:///'+root+'/schemas/ServerMetaSchema.schema.json';meta.meta={version:'1.0.0',name:'PokeBag Server',description:'PokeBag Server (Minecraft 1.21.1)',icon:'',address:'Play.pokebag.fr',discord:{},mainServer:false,autoconnect:true};meta.fabric={version:'0.18.4'};meta.untrackedFiles=[];fs.writeFileSync(path.join(dir,'servermeta.json'),JSON.stringify(meta,null,2));console.log('Wrote',path.join(dir,'servermeta.json'));"
+
+echo "Generating distribution.json..."
+npm run start -- g distro || echo "Failed to generate distribution.json"
+echo "distribution.json should be at ${ROOT}/distribution.json"
 
 echo "Done."
