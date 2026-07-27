@@ -1,0 +1,247 @@
+{
+  "id": "feu",
+  "displayName": "§cArène de Feu",
+  "type": "fire",
+  "trainers": [
+    {
+      "npcName": "§cDresseur Flamme 1",
+      "skin": {
+        "mode": "username",
+        "value": "Steve",
+        "slim": false
+      },
+      "team": [
+        {
+          "species": "growlithe",
+          "level": 18,
+          "moves": []
+        }
+      ],
+      "dialogues": {
+        "locked": [
+          "Tu n\u0027es pas encore prêt à m\u0027affronter !"
+        ],
+        "available": [
+          "Prêt pour un combat ?"
+        ],
+        "defeated": [
+          "Tu m\u0027as déjà battu, continue ton chemin !"
+        ],
+        "onWin": [
+          "Incroyable... tu m\u0027as vaincu !"
+        ],
+        "onLose": [
+          "Reviens quand tu seras plus fort !"
+        ]
+      },
+      "rewards": {
+        "commands": [
+          "give %player% cobblemon:poke_ball 3"
+        ],
+        "firstVictoryOnly": true
+      },
+      "aiSkill": 5
+    },
+    {
+      "npcName": "§cDresseur Flamme 2",
+      "skin": {
+        "mode": "username",
+        "value": "Steve",
+        "slim": false
+      },
+      "team": [
+        {
+          "species": "growlithe",
+          "level": 21,
+          "moves": []
+        }
+      ],
+      "dialogues": {
+        "locked": [
+          "Tu n\u0027es pas encore prêt à m\u0027affronter !"
+        ],
+        "available": [
+          "Prêt pour un combat ?"
+        ],
+        "defeated": [
+          "Tu m\u0027as déjà battu, continue ton chemin !"
+        ],
+        "onWin": [
+          "Incroyable... tu m\u0027as vaincu !"
+        ],
+        "onLose": [
+          "Reviens quand tu seras plus fort !"
+        ]
+      },
+      "rewards": {
+        "commands": [
+          "give %player% cobblemon:poke_ball 3"
+        ],
+        "firstVictoryOnly": true
+      },
+      "aiSkill": 5
+    },
+    {
+      "npcName": "§cDresseur Flamme 3",
+      "skin": {
+        "mode": "username",
+        "value": "Steve",
+        "slim": false
+      },
+      "team": [
+        {
+          "species": "growlithe",
+          "level": 24,
+          "moves": []
+        }
+      ],
+      "dialogues": {
+        "locked": [
+          "Tu n\u0027es pas encore prêt à m\u0027affronter !"
+        ],
+        "available": [
+          "Prêt pour un combat ?"
+        ],
+        "defeated": [
+          "Tu m\u0027as déjà battu, continue ton chemin !"
+        ],
+        "onWin": [
+          "Incroyable... tu m\u0027as vaincu !"
+        ],
+        "onLose": [
+          "Reviens quand tu seras plus fort !"
+        ]
+      },
+      "rewards": {
+        "commands": [
+          "give %player% cobblemon:poke_ball 3"
+        ],
+        "firstVictoryOnly": true
+      },
+      "aiSkill": 5
+    },
+    {
+      "npcName": "§cDresseur Flamme 4",
+      "skin": {
+        "mode": "username",
+        "value": "Steve",
+        "slim": false
+      },
+      "team": [
+        {
+          "species": "growlithe",
+          "level": 27,
+          "moves": []
+        }
+      ],
+      "dialogues": {
+        "locked": [
+          "Tu n\u0027es pas encore prêt à m\u0027affronter !"
+        ],
+        "available": [
+          "Prêt pour un combat ?"
+        ],
+        "defeated": [
+          "Tu m\u0027as déjà battu, continue ton chemin !"
+        ],
+        "onWin": [
+          "Incroyable... tu m\u0027as vaincu !"
+        ],
+        "onLose": [
+          "Reviens quand tu seras plus fort !"
+        ]
+      },
+      "rewards": {
+        "commands": [
+          "give %player% cobblemon:poke_ball 3"
+        ],
+        "firstVictoryOnly": true
+      },
+      "aiSkill": 5
+    },
+    {
+      "npcName": "§cDresseur Flamme 5",
+      "skin": {
+        "mode": "username",
+        "value": "Steve",
+        "slim": false
+      },
+      "team": [
+        {
+          "species": "growlithe",
+          "level": 30,
+          "moves": []
+        }
+      ],
+      "dialogues": {
+        "locked": [
+          "Tu n\u0027es pas encore prêt à m\u0027affronter !"
+        ],
+        "available": [
+          "Prêt pour un combat ?"
+        ],
+        "defeated": [
+          "Tu m\u0027as déjà battu, continue ton chemin !"
+        ],
+        "onWin": [
+          "Incroyable... tu m\u0027as vaincu !"
+        ],
+        "onLose": [
+          "Reviens quand tu seras plus fort !"
+        ]
+      },
+      "rewards": {
+        "commands": [
+          "give %player% cobblemon:poke_ball 3"
+        ],
+        "firstVictoryOnly": true
+      },
+      "aiSkill": 5
+    }
+  ],
+  "leader": {
+    "npcName": "§4§lLeader Pyra",
+    "skin": {
+      "mode": "username",
+      "value": "Steve",
+      "slim": false
+    },
+    "team": [
+      {
+        "species": "arcanine",
+        "level": 40,
+        "moves": []
+      },
+      {
+        "species": "magmar",
+        "level": 38,
+        "moves": []
+      }
+    ],
+    "dialogues": {
+      "locked": [
+        "Tu n\u0027es pas encore prêt à m\u0027affronter !"
+      ],
+      "available": [
+        "Prêt pour un combat ?"
+      ],
+      "defeated": [
+        "Tu m\u0027as déjà battu, continue ton chemin !"
+      ],
+      "onWin": [
+        "§cTu as gagné le Badge Flamme !"
+      ],
+      "onLose": [
+        "Reviens quand tu seras plus fort !"
+      ]
+    },
+    "rewards": {
+      "commands": [
+        "give %player% cobblemon:rare_candy 5"
+      ],
+      "broadcast": "§6%player% a vaincu le leader de l\u0027%arena% !",
+      "firstVictoryOnly": true
+    },
+    "aiSkill": 5
+  }
+}

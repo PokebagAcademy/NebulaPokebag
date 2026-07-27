@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:barrier","components":{"minecraft:item_name":"{\"extra\":[{\"color\":\"red\",\"text\":\"Close\"}],\"italic\":false,\"text\":\"\"}","minecraft:lore":["{\"extra\":[{\"color\":\"gray\",\"text\":\"Click to close menu\"}],\"italic\":false,\"text\":\"\"}"]}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblehub_eggs:shiny_fusion_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:paper","components":{"minecraft:hide_tooltip":{},"minecraft:custom_model_data":117}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

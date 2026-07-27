@@ -1,0 +1,19 @@
+Know type matchups and plan around them. Learning which types resist or are weak to others will let you switch into favorable matchups and finish battles faster with fewer heals.
+Lower a wild mon to low HP before attempting a catch and use sleep or paralysis to raise your success rate. Status effects stack with low HP to give you many more reliable catches without wasting rare balls.
+Aim for team balance rather than maxing one mon only. Include a lead for fast damage, a bulky switch to absorb hits, a support that can heal or inflict status, and a cleaner to finish fights so you are prepared for varied encounters.
+Explore different biomes and check time of day frequently because many species only appear in specific locations or at night. Mark spots where you find rare spawns so you can return later and farm efficiently.
+Keep a set of held items that match each role on your team and swap them as needed. Berries for durability, damage boosters for sweepers, and item combos that trigger on low HP can make a huge difference in difficult fights.
+Use breeding to pass down natures, IVs, and useful moves and keep a versatile Ditto for compatibility. Properly planned breeding saves you hours of grinding and produces mons that are useful right out of the box.
+Train EVs with focus and consistency by concentrating on one or two stats per mon. A well targeted EV spread will outperform random training because it accentuates a mon’s natural strengths.
+Collect TMs and TRs and use them to cover weak spots in your team. Teaching a single well-chosen move can turn a vulnerable matchup into a favorable one.
+Manage experience gain so lower level mons catch up faster by rotating them into battles where safe. Using shared XP methods can benefit your long term team growth.
+Organize your PC storage with clear box names for starters, breeders, events and shinies. Good organization reduces time lost searching and prevents accidental releases or trades.
+Learn priority moves and speed tiers because moving first often decides tight fights. A small speed investment can let a slower but stronger mon land a finishing blow before the opponent can act.
+Treat held items, consumables and key resources like strategic tools rather than decorations. Saving or swapping items at the right moment often wins battles that raw levels alone cannot.
+Be cautious when trading and always confirm trade details before accepting. Use trusted servers, verified plugins, or in game messages to log trades so you can resolve problems later if they arise.
+If you notice lag or stuttering, first reduce particle settings and render distance before other changes. Allocating more client memory and keeping the modpack updated will usually fix most performance issues without sacrificing gameplay.
+Be sure to check your playtime rewards with /playtime - you can earn money, items and even an exclusive Name Tag!
+Unsure of what to do next? Find inspiration in the /guide
+The Resource World, Nether and End reset bi-weekly so there's always somewhere new to explore!
+Be sure to join the CobblemonGG Discord Server to keep up to date with updates and join in discussions!
+Remember to vote daily to maintain a voting streak with increasing rewards.

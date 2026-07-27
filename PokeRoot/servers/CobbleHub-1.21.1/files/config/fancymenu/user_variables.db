@@ -1,0 +1,26 @@
+type = user_variables
+
+variable {
+  name = unixday
+  value = 5
+  reset_on_launch = false
+}
+
+variable {
+  name = confirmation
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = day
+  value = Mardi
+  reset_on_launch = false
+}
+
+variable {
+  name = transition
+  value = 2.0000000000000004
+  reset_on_launch = false
+}
+

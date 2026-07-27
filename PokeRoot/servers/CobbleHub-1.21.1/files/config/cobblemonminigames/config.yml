@@ -1,0 +1,19 @@
+snake:
+  coinToPlay: 1
+  multiplier: 2.0
+flappybird:
+  coinToPlay: 1
+  multiplier: 2.0
+slotmachine:
+  coinToPlay: 1
+blockstacker:
+  coinToPlay: 1
+voltorbflip:
+  coinToPlay: 10
+roulette:
+  leftTableBet: 1
+  rightTableBet: 3
+  serviceDayBet: 6
+recipes:
+  arcadeCoinCrafting: true
+  arcadeMachineCrafting: true
