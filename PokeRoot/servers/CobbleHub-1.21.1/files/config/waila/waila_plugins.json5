@@ -1,0 +1,323 @@
+{
+  waila: {
+    // Afficher les blocs
+    // Valeur par défaut : [true]
+    show_blocks: true,
+    // Afficher les liquides
+    // Essayer d'afficher les liquides
+    // Valeur par défaut : [false]
+    show_fluids: false,
+    // Afficher les entités
+    // Valeur par défaut : [true]
+    show_entities: true,
+    // Afficher l'icône
+    // Valeur par défaut : [true]
+    show_icon: true,
+    // Position de l'icône
+    // Valeur par défaut : [MIDDLE]
+    // Valeurs disponibles : [TOP, MIDDLE, BOTTOM]
+    icon_position: "MIDDLE",
+    // Afficher le nom du mod
+    // Valeur par défaut : [true]
+    show_mod_name: true,
+    // Afficher le nom du mod de l'objet
+    // Valeur par défaut : [true]
+    show_item_mod_name: true,
+    // Afficher l'identifiant
+    // Valeur par défaut : [false]
+    show_registry: false
+  },
+  minecraft: {
+    // Afficher la position des blocs
+    // Valeur par défaut : [false]
+    "block.position": false,
+    // Afficher l'état des blocs
+    // Valeur par défaut : [false]
+    "block.state": false,
+    // Afficher l'entité de l'objet
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "entity.item_entity": true,
+    // Afficher la position des entités
+    // Valeur par défaut : [false]
+    "entity.position": false,
+    // Afficher les points de santé
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "entity.health": true,
+    // Afficher les points de santé de l'effet Absorption
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "entity.absorption": true,
+    // Afficher les points d'armure
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "entity.armor": true,
+    // Mode compact
+    // Afficher les points de vie et d'armure sur une seule ligne, avec un nombre au lieu d'une icône
+    // Valeur par défaut : [false]
+    "entity.compact": false,
+    // Nombre maximal d'icônes par ligne
+    // Nombre maximum d'icônes de santé et d'armure avant de commencer une nouvelle ligne
+    // Valeur par défaut : [25]
+    "entity.icon_per_line": 25,
+    // Points de santé maximum à afficher
+    // Nombre maximal de points de santé que l'icône affichera avant de forcer l'affichage fractionné.
+    // Valeur par défaut : [100]
+    "entity.long_health_max": 100,
+    // Points d'armure maximum à afficher
+    // Nombre maximal de points d'armure que l'icône affichera avant de forcer l'affichage numérique
+    // Valeur par défaut : [100]
+    "entity.long_armor_max": 100,
+    // Afficher le propriétaire de l'animal
+    // Disponible uniquement pour les comptes Minecraft enregistrés
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "pet.owner": true,
+    // Masquer le propriétaire inconnu
+    // Valeur par défaut : [false]
+    "pet.hide_unknown_owner": false,
+    // Afficher la hauteur de saut du cheval
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "horse.jump_height": true,
+    // Afficher la vitesse du cheval
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "horse.speed": true,
+    // Afficher les gènes du panda
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "panda.genes": true,
+    // Afficher la position de la ruche
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "bee.hive_pos": true,
+    // Afficher le niveau de miel de la ruche
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "bee.hive_honey_level": true,
+    // Afficher le nombre d'abeilles dans la ruche
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "bee.hive_occupants": true,
+    // Afficher les effets des balises
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "effect.beacon": true,
+    // Afficher les effets des créatures
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "effect.mob": true,
+    // Afficher les effets masqués des créatures
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [false]
+    "effect.hidden_mob": false,
+    // Afficher le disque joué
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "jukebox.record": true,
+    // Afficher le compteur de croissance
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "timer.grow": true,
+    // Afficher le compteur de reproduction
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "timer.breed": true,
+    // Masquer les entités invisibles
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "override.invisible_entity": true,
+    // Afficher les coffres piégés comme un coffre normal
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "override.trapped_chest": true,
+    // Afficher la neige poudreuse comme de la neige normale
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "override.powder_snow": true,
+    // Afficher le bloc infesté comme un bloc normal
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "override.infested": true,
+    // Masquer la monture et le véhicule
+    // Masquer le wagonnet, le cheval et les autres entités pouvant être montées lorsqu'elles sont montées par le joueur
+    // Valeur par défaut : [true]
+    "override.vehicle": true,
+    // Afficher la progression du minage
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "breaking_progress.enabled": true,
+    // Couleur de la progression du minage
+    // Valeur par défaut : [-1426063361]
+    "breaking_progress.color": -1426063361,
+    // En bas uniquement
+    // Valeur par défaut : [false]
+    "breaking_progress.bottom_only": false,
+    // Afficher le type de générateur
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "spawner.type": true,
+    // Afficher la progression des cultures
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "plant.crop_progress": true,
+    // Afficher si les cultures peuvent pousser
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "plant.crop_growable": true,
+    // Afficher si les arbres peuvent pousser
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "plant.tree_growable": true,
+    // Afficher l'état du levier
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "redstone.lever": true,
+    // Afficher le délai du répéteur
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "redstone.repeater": true,
+    // Afficher le mode du comparateur
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "redstone.comparator": true,
+    // Afficher le niveau de puissance
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "redstone.level": true,
+    // Afficher le niveau du composteur
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "level.composter": true,
+    // Afficher l'instrument et la note
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    "note_block.type": true,
+    // Mode d'affichage de la note
+    // Valeur par défaut : [SHARP]
+    // Valeurs disponibles : [SHARP, FLAT]
+    "note_block.note": "SHARP",
+    // Afficher la valeur entière
+    // Valeur par défaut : [false]
+    "note_block.int_value": false,
+    // Afficher les livres de la bibliothèque sculptée
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "book.bookshelf": true,
+    // Afficher les livres du pupitre
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "book.lectern": true,
+    // Mode d'affichage des enchantements
+    // Valeur par défaut : [CYCLE]
+    // Valeurs disponibles : [SEPARATE, COMBINED, CYCLE, DISABLED]
+    "book.enchantment": "CYCLE",
+    // Délai du cycle d’enchantement (ms)
+    // Valeur par défaut : [500]
+    "book.enchantment_cycle_timing": 500,
+    // Afficher les détails du livre
+    // Valeur par défaut : [true]
+    "book.details": true
+  },
+  harvest: {
+    // Afficher si récoltable
+    // Cette valeur sera fusionnée avec celle du serveur
+    // Valeur par défaut : [true]
+    enabled: true,
+    // Mode d'affichage
+    // Valeur par défaut : [MODERN]
+    // Valeurs disponibles : [MODERN, CLASSIC, CLASSIC_MINIMAL]
+    display_mode: "MODERN",
+    // Afficher en mode Créatif
+    // Valeur par défaut : [false]
+    creative: false
+  },
+  wailax: {
+    // Afficher l'énergie des blocs
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "energy.enabled_block": true,
+    // Afficher l'énergie des entités
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "energy.enabled_entity": true,
+    // Liste noire de l'énergie
+    // Configuration personnalisée : ouvrez le fichier suivant
+    // extra\energy_blacklist.json5
+    "energy.blacklist": null,
+    // Afficher le contenu en liquide des blocs
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "fluid.enabled_block": true,
+    // Afficher le contenu en liquide des entités
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "fluid.enabled_entity": true,
+    // Unité d'affichage
+    // Valeur par défaut : [MILLIBUCKETS]
+    // Valeurs disponibles : [MILLIBUCKETS, DROPLETS]
+    "fluid.display_unit": "MILLIBUCKETS",
+    // Liste noire des contenus liquides
+    // Configuration personnalisée : ouvrez le fichier suivant
+    // extra\fluid_blacklist.json5
+    "fluid.blacklist": null,
+    // Afficher le contenu de l'objet du bloc
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "item.enabled_block": true,
+    // Afficher le contenu de l'objet de l'entité
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "item.enabled_entity": true,
+    // Synchroniser les données NBT
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "item.nbt": true,
+    // Mode d'affichage
+    // Grille : affichage sous forme de grille, comme pour l’inventaire
+    // Liste : affichage sous forme de liste verticale avec les noms en ligne
+    // Dynamique : passe de la liste à la grille lorsque la hauteur maximale est atteinte
+    // Valeur par défaut : [DYNAMIC]
+    // Valeurs disponibles : [GRID, LIST, DYNAMIC]
+    "item.display_mode": "DYNAMIC",
+    // Hauteur maximale
+    // Valeur par défaut : [3]
+    "item.max_height": 3,
+    // Trier par nombre
+    // Valeur par défaut : [true]
+    "item.sort_by_count": true,
+    // Échelle du mode grille
+    // Valeur par défaut : [1.0]
+    "item.grid_mode_scale": 1.0,
+    // Liste noire du contenu de l'objet
+    // Configuration personnalisée : ouvrez le fichier suivant
+    // extra\item_blacklist.json5
+    "item.blacklist": null,
+    // Afficher la progression de fabrication des blocs
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "progress.enabled_block": true,
+    // Afficher la progression de fabrication des entités
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "progress.enabled_entity": true,
+    // Afficher le temps estimé
+    // Nécessite que le serveur ait WTHIT installé ; sinon, sera verrouillé sur [false]
+    // Valeur par défaut : [true]
+    "progress.time": true,
+    // Remplacer l'infobulle de l'objet
+    // Si activé, remplace l'infobulle de l’objet quand la recette a un objet en entrée et/ou en sortie. Si désactivé, ou si la recette n’a ni entrée ni sortie, seule la barre de progression est affichée.
+    // Valeur par défaut : [false]
+    "progress.replace_items": false,
+    // Hauteur de la barre de progression
+    // Uniquement lorsque cela s'affiche sous forme de barre et non de flèche
+    // Valeur par défaut : [1]
+    "progress.height": 1,
+    // Liste noire de la progression de fabrication
+    // Configuration personnalisée : ouvrez le fichier suivant
+    // extra\progress_blacklist.json5
+    "progress.blacklist": null
+  }
+}

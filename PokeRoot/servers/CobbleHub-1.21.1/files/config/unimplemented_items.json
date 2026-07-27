@@ -1,0 +1,27 @@
+{
+  "abilityPatchGen9": true,
+  "lootPoolOverrides": [
+    {
+      "field_13353": "minecraft",
+      "field_13355": "gameplay/fishing/treasure"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "blocks/tall_grass"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "blocks/short_grass"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "blocks/fern"
+    }
+  ],
+  "shinyCharmBonusRolls": 2,
+  "bottleCapBlacklist": [],
+  "fishingAirWeight": 88,
+  "fishingBottleCapWeight": 10,
+  "fishingGoldenBottleCapWeight": 1,
+  "fishingAbilityPatchWeight": 1
+}

@@ -1,0 +1,73 @@
+{
+  "title": "✦ Mes Cubees ✦",
+  "rows": 6,
+  "border": {
+    "item": "GRAY_STAINED_GLASS_PANE",
+    "name": " "
+  },
+  "infoItem": {
+    "item": "NETHER_STAR",
+    "name": "§6Pets actifs : §f{active}§7/§f{max}",
+    "lore": [
+      "§7Clique sur un Cubee pour l'activer/désactiver.",
+      "§a■ §fActif   §9■ §fDébloqué   §c■ §fVerrouillé"
+    ]
+  },
+  "stateActive": {
+    "item": "LIME_STAINED_GLASS_PANE",
+    "nameFormat": "§a✦ {name} {tierColor}[{tier}]",
+    "loreLines": [
+      "§8——————————————",
+      "{shiny}",
+      "{effect}",
+      "§8——————————————",
+      "§a● Actif §7- Clique pour désactiver"
+    ]
+  },
+  "stateUnlocked": {
+    "item": "LIGHT_BLUE_STAINED_GLASS_PANE",
+    "nameFormat": "§9◆ {name} {tierColor}[{tier}]",
+    "loreLines": [
+      "§8——————————————",
+      "{shiny}",
+      "{effect}",
+      "§8——————————————",
+      "§7○ Inactif §7- Clique pour activer"
+    ]
+  },
+  "stateLocked": {
+    "item": "BARRIER",
+    "nameFormat": "§c🔒 §8{name}",
+    "loreLines": [
+      "§cCe Cubee n'est pas débloqué.",
+      "§7Obtiens-le via une box !"
+    ]
+  },
+  "tierColors": {
+    "C": "§a",
+    "B": "§b",
+    "A": "§e",
+    "S": "§6",
+    "D": "§7"
+  },
+  "cubeeSlots": [
+    10,
+    12,
+    14,
+    16,
+    19,
+    21,
+    23,
+    25,
+    28,
+    30,
+    32,
+    34,
+    37,
+    39,
+    41,
+    43
+  ],
+  "infoSlot": 4,
+  "fillSlots": []
+}

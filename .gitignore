@@ -89,3 +89,7 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+
+required/
+distribution.json

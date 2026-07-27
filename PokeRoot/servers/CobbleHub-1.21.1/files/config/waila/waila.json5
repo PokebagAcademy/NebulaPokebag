@@ -1,0 +1,158 @@
+{
+  general: {
+    // Ajouter aux options Vanilla
+    // Ajouter un bouton dans les options du jeu vanilla pour ouvrir l’écran de configuration de WTHIT
+    // Valeur par défaut : [true]
+    vanillaOptions: true,
+    // Afficher l'infobulle
+    // Collecter les données et afficher l'infobulle
+    // Valeur par défaut : [true]
+    displayTooltip: true,
+    // Détails en s’accroupissant
+    // Les détails sont masqués à moins de s'accroupir
+    // Valeur par défaut : [false]
+    shiftForDetails: false,
+    // Masquer le texte pour s'accroupir
+    // Masquer le texte « S'accroupir pour plus de détails » quand « Détails en s'acroupissant » est activé
+    // Valeur par défaut : [false]
+    hideShiftText: false,
+    // Mode d'affichage
+    // Comportement d'affichage des infobulles
+    // Basculer : La touche d'affichage permet d'activer ou de désactiver l'infobulle
+    // Maintenir : La touche d'affichage doit être maintenue enfoncée
+    // Valeur par défaut : [TOGGLE]
+    // Valeurs disponibles : [HOLD_KEY, TOGGLE]
+    displayMode: "TOGGLE",
+    // Masquer de la liste des joueurs
+    // Masquer l'infobulle lorsque la liste des joueurs est ouverte
+    // Valeur par défaut : [true]
+    hideFromPlayerList: true,
+    // Masquer du menu de débogage
+    // Masquer l'infobulle quand le menu de débogage est ouvert
+    // Valeur par défaut : [true]
+    hideFromDebug: true,
+    // Activer la synthèse vocale
+    // Lire les noms des blocs et entités avec le synthétiseur vocal du système
+    // Valeur par défaut : [false]
+    enableTextToSpeech: false,
+    // Limite de fréquence
+    // Délai (en millisecondes) entre chaque requête serveur
+    // Doit être au minimum de 250 ms
+    // Valeur par défaut : [250]
+    rateLimit: 250
+  },
+  overlay: {
+    position: {
+      align: {
+        // Valeur par défaut : [CENTER]
+        // Valeurs disponibles : [LEFT, CENTER, RIGHT]
+        x: "CENTER",
+        // Valeur par défaut : [TOP]
+        // Valeurs disponibles : [TOP, MIDDLE, BOTTOM]
+        y: "TOP"
+      },
+      anchor: {
+        // Valeur par défaut : [CENTER]
+        // Valeurs disponibles : [LEFT, CENTER, RIGHT]
+        x: "CENTER",
+        // Valeur par défaut : [TOP]
+        // Valeurs disponibles : [TOP, MIDDLE, BOTTOM]
+        y: "TOP"
+      },
+      // Décalage
+      // Valeur par défaut : [0]
+      x: 553,
+      // Valeur par défaut : [0]
+      y: 7,
+      // Chevauchement des barres de boss
+      // Si la valeur est « Non », l’infobulle descendra si des barres de boss sont visibles
+      // Cela n’affecte que l’alignement en haut au centre
+      // Valeur par défaut : [false]
+      bossBarsOverlap: false
+    },
+    color: {
+      // Opacité du fond
+      // Valeur par défaut : [204]
+      backgroundAlpha: 204,
+      // Custom Themes
+      themes: [],
+      // Thème
+      // Valeur par défaut : [waila:vanilla]
+      activeTheme: "waila:vanilla"
+    },
+    // Échelle
+    // Taille de l'infobulle
+    // 1.0 est la valeur par défaut
+    // Valeur par défaut : [1.0]
+    scale: 0.5,
+    // IPS de l'overlay
+    // Diminuer le nombre d'images par seconde (IPS) de la superposition peut améliorer le nombre d'IPS global du jeu
+    // Régler sur 0 pour débloquer
+    // Valeur par défaut : [30]
+    fps: 30
+  },
+  // Text formatters
+  formatter: {
+    // Valeur par défaut : [§9§o%s]
+    modName: "§9§o%s",
+    // Valeur par défaut : [§f%s]
+    blockName: "§f%s",
+    // Valeur par défaut : [§f%s]
+    fluidName: "§f%s",
+    // Valeur par défaut : [§f%s]
+    entityName: "§f%s",
+    // Valeur par défaut : [§8%s]
+    registryName: "§8%s",
+    // 
+    styles: {
+      // 
+      "§f%s": {
+        // 
+        field_11855: {
+          // 
+          field_24364: 16777215,
+          // 
+          field_24365: "white"
+        },
+        // 
+        field_11856: false,
+        // 
+        field_11852: false,
+        // 
+        field_11851: false,
+        // 
+        field_11857: false,
+        // 
+        field_11861: false,
+        // 
+        field_11853: null,
+        // 
+        field_11858: null,
+        // 
+        field_11859: null,
+        // 
+        field_24361: null
+      }
+    }
+  },
+  keyBinds: {
+    // Ouvrir la configuration
+    // Valeur par défaut : [key.keyboard.unknown]
+    openConfig: "key.keyboard.unknown",
+    // Afficher l'overlay
+    // Valeur par défaut : [key.keyboard.unknown]
+    showOverlay: "key.keyboard.unknown",
+    // Activer/désactiver les liquides
+    // Valeur par défaut : [key.keyboard.unknown]
+    toggleLiquid: "key.keyboard.unknown",
+    // Afficher l'utilisation de la recette
+    // Valeur par défaut : [key.keyboard.unknown]
+    showRecipeInput: "key.keyboard.unknown",
+    // Afficher la recette
+    // Valeur par défaut : [key.keyboard.unknown]
+    showRecipeOutput: "key.keyboard.unknown"
+  },
+  // Internal value, DO NOT TOUCH!
+  // Valeur par défaut : [0]
+  configVersion: 1
+}

@@ -1,0 +1,19 @@
+{
+  "minLevel": 5,
+  "maxLevel": 30,
+  "legendaryIncludesMythicals": true,
+  "legendaryIncludesUltraBeasts": false,
+  "classicExcludedLabels": [
+    "legendary",
+    "mythical",
+    "ultra_beast",
+    "paradox"
+  ],
+  "blacklist": [],
+  "fusionSpecies": [
+    "pikachu",
+    "charizard"
+  ],
+  "openMessage": "",
+  "openMessageShiny": ""
+}
