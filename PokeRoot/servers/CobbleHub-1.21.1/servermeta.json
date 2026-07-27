@@ -1,14 +1,19 @@
 {
   "schema": "file:///./PokeRoot/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "CobbleHub Server",
     "description": "CobbleHub Server (Minecraft 1.21.1)",
     "icon": "",
     "address": "play.cobblehub.fr",
     "discord": {},
     "mainServer": true,
-    "autoconnect": true
+    "autoconnect": true,
+    "javaOptions": {
+      "distribution": "TEMURIN",
+      "supported": ">=21 <22",
+      "suggestedMajor": 21
+    }
   },
   "fabric": {
     "version": "0.18.4"
